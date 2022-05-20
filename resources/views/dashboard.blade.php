@@ -12,6 +12,12 @@
                     Logado mizera!!!
                 </div>
                 <table>
+                        <tr>
+                            <td>Marca</td>
+                            <td>Tecido</td>
+                            <td>Cor</td>
+                            <td>Ano</td>
+                        </tr>    
                         @foreach(Auth::user()->camisas as $camisa)
                             <tr>
                                 <td>{{$camisa->marca}}</td>
